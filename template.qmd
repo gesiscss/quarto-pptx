@@ -1,7 +1,31 @@
 ---
-title: "Template"
+title: "GESIS PowerPoint Presentation"
+author: "Raniere Silva"
+date: 1st October 2024
+format:
+  pptx:
+    reference-doc: gesis.pptx
 ---
 
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+# Computational Social Science
+
+##  Transparent Social Analytics
+
+- **Schoch, David**
+- Balluff, Paul
+- Bleier, Dr. Arnim
+- Chan, Dr Chung-hong
+- Costa da Silva, Raniere Gaia
+- Linde, Dr. Maximilian
+- Sun, Dr Jun
+- Viehmann, Christina
+
+---
+
+::: {.notes}
+Thanks!
+:::
