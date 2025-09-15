@@ -1,0 +1,14 @@
+title: GESIS PowerPoint
+author: Raniere Gaia Costa da Silva
+version: 1.0.0
+quarto-required: ">=1.6.0"
+contributes:
+  project:
+    project:
+      type: default
+    format: gesis-pptx
+  formats:
+    pptx:
+      reference-doc: gesis.pptx
+      format-resources:
+        - gesis.pptx
