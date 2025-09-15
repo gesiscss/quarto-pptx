@@ -2,6 +2,8 @@
 
 This is not an **official** product. Please use the official Powerpoint template available at [GESIS Intranet](https://intranet.gesis.intra/Vorstand/Kommunikation_Transfer/SitePages/Poster_Logos_Vorlagen_Styleguide.aspx)!
 
+This is based on GESIS PowerPoint template presentation from 12.06.2024.
+
 ## Usage
 
 ### Recommended Way
