@@ -1,35 +1,36 @@
 # Quarto PowerPoint template for GESIS (unofficial)
 
-This is a repository for Quarto PowerPoint template. And this is not an **official** product. Please use the official Powerpoint template available at [GESIS Intranet](https://intranet.gesis.intra/Vorstand/Kommunikation_Transfer/SitePages/Poster_Logos_Vorlagen_Styleguide.aspx).
-
-## Installation
-
-### As Fork 
-
-Fork this repository.
-
-### By Download the Reference Document
-
-Download the reference document [`gesis.pptx`](gesis.pptx).
-
-### Template
-
-Not available yet.
+This is not an **official** product. Please use the official Powerpoint template available at [GESIS Intranet](https://intranet.gesis.intra/Vorstand/Kommunikation_Transfer/SitePages/Poster_Logos_Vorlagen_Styleguide.aspx)!
 
 ## Usage
 
-Include the following snippet in the YAML header of your document.
+### Recommended Way
 
-```yaml
-format:
-  pptx:
-    reference-doc: gesis.pptx
-```
-
-And render the document as usual, for example,
+Run
 
 ```bash
-quarto render
+quarto use template gesiscss/quarto-pptx
+```
+
+to install this Quarto extension and a template file to start.
+
+You can render your document as usual.
+
+### Creating a repository from a template
+
+**This only works for GitHub!**
+
+Follow the steps in "[Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)" and choose `gesiscss/quarto-pptx` in the dropdown menu of "Start with a template".
+
+You can render your document as usual.
+
+## `_quarto.yml`
+
+Make sure that `_quarto.yml` has
+
+```
+project:
+  type: gesis
 ```
 
 ## Features
